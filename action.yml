@@ -1,0 +1,16 @@
+name: Hello Barsoom
+
+description: "Greet someone"
+
+inputs:
+  description: 'Name'
+  required: true
+  default: 'Barsoom'
+
+outputs:
+  greeting:
+    description: 'How we greeted you'
+
+runs:
+  using: 'node20'
+  main: index.js
