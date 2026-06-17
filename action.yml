@@ -3,9 +3,10 @@ name: Hello Barsoom
 description: "Greet someone"
 
 inputs:
-  description: 'Name'
-  required: true
-  default: 'Barsoom'
+  who-to-greet:
+    description: 'Name'
+    required: true
+    default: 'Barsoom'
 
 outputs:
   greeting:
